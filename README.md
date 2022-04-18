@@ -48,7 +48,7 @@ auto-editor example.mp4 --edit motion --motion-threshold 2%
 auto-editor example.mp4 --silent-threshold 4%
 
 # audio and motion thresholds are toggled independently
-auto-editor example.mp4 --edit audio_or_motion --silent-threshold 3% --motion-threshold 6%
+auto-editor example.mp4 --edit motion:threshold=10%,blur=10_or_audio:threshold=30%
 ```
 
 <h2 align="center">Exporting to Editors</h2>
